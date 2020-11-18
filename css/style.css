@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    background: url('../img/mapa.jpg') no-repeat;
+    background-size: 100% 660px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.424);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 200px auto;
+    border-radius: 4px;
+}
+
+form h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+form input {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 0 3px;
+    padding: 15px;
+    margin: 10px 0 20px 0;
+    width: 300px;
+}
+
+form button {
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    box-shadow: 0 0 2px;
+    color: #fff;
+    background-color: #01033F;
+}
+
+form button:hover {
+    cursor: pointer;
+    color: #01033F;
+    background-color: #fff;
+    border: 1px solid #01033F
+}

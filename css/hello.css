@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    background-color: #01033F;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5rem;
+    margin-top: 100px;
+}
+
+img {
+    width: 350px;
+}
+
+.robo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
